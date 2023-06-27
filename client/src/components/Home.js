@@ -21,6 +21,7 @@ const Home = ({socket}) => {
         id='username'
         className='username__input' 
         value={userName} 
+        autocomplete="off"
         onChange={e => setUserName(e.target.value)}
         />
         <button className='home__cta'>SIGN IN</button>
