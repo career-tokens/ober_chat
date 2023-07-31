@@ -195,3 +195,77 @@
   font-size: 0.9em;
   font-style: italic;
 }
+/** styling for desktop appearnace*/
+@media(min-width:600px)
+{
+  .chat__mainHeader {
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vh;
+    background-color: #F9F5EB;
+    width: 100vw;
+  }
+  .ober {
+    color: white;
+    background-color: black;
+    width: 35vh;
+    padding: 2vh;
+    font-size: 3vh;
+    border-radius: 1em;
+    display: flex;
+    gap: 1vh;
+    justify-content: center;
+  }
+  .leaveChat__btn{
+    font-size:2.5vh;
+    width:30vh
+  }
+  .message__container{
+    height:79vh;
+  }
+  .you{
+    font-size:3vh;
+float:right;/**another awesome property to shift element to the far right without fixing position*/
+  }
+  .chat__footer{
+    height:11vh;
+  }
+  .form {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1vh;
+  }
+  .message{
+    height: 6vh;
+    font-size: 3vh;
+  }
+  .sendBtn {
+    font-size: 2.5vh;
+    width: 28vh;
+  }
+  .message-footer{
+      font-size: 3vh;
+      max-width: 40vw;
+  }.other{
+    font-size: 3vh;
+    border-radius: 7px;
+    position:relative;
+  }
+  .message__recipient{
+    font-size:2.5vh;
+    width:fit-content;
+  }
+  .message__sender{
+    font-size:2.5vh;
+    max-width:40vw;
+    width:fit-content;/**this awesome thing sets the width of a div based on the content*/
+  }
+  .message__chats > p {
+    font-size: 3vh;
+  }
+}
